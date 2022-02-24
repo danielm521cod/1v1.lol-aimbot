@@ -24,7 +24,7 @@ MidX := A_ScreenWidth / 2
 MidY := A_ScreenHeight / 2 
 Triggerbot = 1 
 Sense = 2
-
+aimbot run active``
 ~RButton::
 {
 	While GetKeyState("RButton"){
@@ -36,7 +36,8 @@ MoveY := ((TargetY - MidY) / sense)
 MouseMove, MoveX, MoveY,, R 
 if (TriggerBot = 1) 
 Click 
-}
+SOFTAIM ON/ AIMBOT 56%/
+
 }
 }
 return
